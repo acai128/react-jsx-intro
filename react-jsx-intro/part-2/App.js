@@ -1,3 +1,7 @@
+import React from "react"
+
+import Tweet from "./Tweet"
+
 function App(){
     return (
         <div>
@@ -7,3 +11,5 @@ function App(){
         </div>
     )
 }
+
+export default App 

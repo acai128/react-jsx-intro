@@ -8,8 +8,8 @@ function FirstComponent(props){
 }
 
 ReactDOM.render(
-    <div>Hi</div>,
-        // <FirstComponent name="Amy"/>
+    <div>
+    <FirstComponent name="Amy"/></div>, 
     document.getElementById("root")
   );
 

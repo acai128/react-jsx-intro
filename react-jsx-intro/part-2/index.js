@@ -1,15 +1,9 @@
-function Tweet(props){
-    return (
-        <div className="tweet">
-            <p>{username.props}</p>
-            <p>{name.props}</p>
-            <p>{Date.props}</p>
-            <p>{message.props}</p>
-        </div>
-    );
-}
+import React from "react"
+import ReactDOM from "react-dom"
+
+import App from "./App"
 
 ReactDOM.render(
-    <App/>,
+    <App />,
     document.getElementById("root")
   );
